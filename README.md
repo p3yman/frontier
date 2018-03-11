@@ -47,7 +47,7 @@ project
     │   ├── partials // for partials like header.html or sidebar.html
     ├── images
     ├── js
-        │   ├── vendor // for external plugins like jquery
-        │   ├── lib // for project js files
+        ├── vendor // for external plugins like jquery
+        ├── lib // for project js files
     └── sass // for sass files. you can set inner structure as you want
 ```

@@ -29,8 +29,25 @@ This is a workflow for front-end and ui projects. Works done with this workflow 
 ### Install
 - Make sure you have these installed
     - [Node.js](https://nodejs.org)
+    - [npm](https://www.npmjs.com/)
     - [Git](https://git-scm.com/)
 - Clone this repository using `git clone https://github.com/peyman3d/frontier.git FOLDERNAME`
 - CD to the folder cd FOLDERNAME
 - Run `npm install` to install the node.js dependencies
 - Run `gulp` to start gulp workflow watchers
+
+### Folder structure
+I tried to make folder structure as simple as it can and it's like this:
+```
+project
+└── src
+    ├── fonts
+    ├── html
+    │   ├── elements // for elements like post-item.html
+    │   ├── partials // for partials like header.html or sidebar.html
+    ├── images
+    ├── js
+        │   ├── vendor // for external plugins like jquery
+        │   ├── lib // for project js files
+    └── sass // for sass files. you can set inner structure as you want
+```

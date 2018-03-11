@@ -1,0 +1,42 @@
+{
+  "name": "frontier",
+  "version": "1.0.0",
+  "description": "A starter for front-end projects with gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peyman3d/frontier.git"
+  },
+  "keywords": [
+    "ui",
+    "gulp",
+    "front-end",
+    "css",
+    "sass",
+    "js",
+    "html"
+  ],
+  "author": "Peyman Eskandari (@peyman3d)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peyman3d/frontier/issues"
+  },
+  "homepage": "https://github.com/peyman3d/frontier#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-file-include": "^2.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}

@@ -25,3 +25,12 @@ This is a workflow for front-end and ui projects. Works done with this workflow 
 - [gulp-csscomb](https://www.npmjs.com/package/gulp-csscomb)*
 
 * `gulp-csscomb` has a config file that is placed in route folder called `.csscomb.json`. You can change it's configs using it's own [documentations](http://csscomb.com/docs).
+
+### Install
+- Make sure you have these installed
+    - [Node.js](https://nodejs.org)
+    - [Git](https://git-scm.com/)
+- Clone this repository using `git clone https://github.com/peyman3d/frontier.git FOLDERNAME`
+- CD to the folder cd FOLDERNAME
+- Run `npm install` to install the node.js dependencies
+- Run `gulp` to start gulp workflow watchers

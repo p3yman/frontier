@@ -1,2 +1,5 @@
 /.idea/
 /node_modules/
+
+# Ignore dist folder, you can remove it if you want to keep them in reopository
+/dist/

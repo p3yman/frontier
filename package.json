@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/peyman3d/frontier#readme",
   "devDependencies": {
+    "dateformat": "^3.0.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
@@ -33,10 +34,14 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-file-include": "^2.0.1",
     "gulp-newer": "^1.4.0",
+    "gulp-prettify": "^0.5.0",
     "gulp-rename": "^1.2.2",
     "gulp-rimraf": "^0.2.2",
+    "gulp-rtlcss": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.1.0",
+    "run-sequence": "^2.2.1"
   }
 }
